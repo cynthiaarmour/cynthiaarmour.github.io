@@ -7,6 +7,13 @@
 [Oakland Gran Fondo 2016 3D Viewer Read Me]( index.html )
 ===
 
+## Full Screen: [Oakland Gran Fondo 2016 3D Viewer]( https://jaanga.github.io/terrain3/elevations-core3/oakland-gran-fondo-r9.html )
+
+<img src="" style=display:none; width=800 >
+
+<iframe src="https://jaanga.github.io/terrain3/elevations-core3/oakland-gran-fondo-r9.html" width=800px height=500px onload=this.contentWindow.googleMap.setOptions({scrollwheel:false});></iframe>
+
+_Oakland Gran Fondo 2016 3D Viewer_
 
 
 ## Program
