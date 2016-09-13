@@ -28,7 +28,7 @@
 * Code is written so as to be readable by entry level programmers
 
 
-## Copyright & Licence (MIT)
+## Copyright & License (MIT)
 
 Copyright &copy; 2016 Cynthia Armour, Theo Armour
 
