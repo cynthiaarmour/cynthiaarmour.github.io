@@ -3,6 +3,7 @@
 <input type=button onclick=window.location.href='https://github.com/cynthiaarmour/cynthiaarmour.github.io/'; value='You are now in GitHub web page view - Click this button to view Read Me file as source code' >
 
 
+
 ![]( cynthia-draw-lightning.jpg )
 
 [Cynthia Armour Read Me]( index.html )
@@ -21,4 +22,4 @@ An active network offers a variety of ways to get from A to B, all efficient in 
 * [Bike East Bay]( https://bikeeastbay.org/staff )
 
 
-## [Oakland Gran Fondo 2016]( https://cynthiaarmour.github.io/oakland-gran-fondo-2016 )
+## [Oakland Gran Fondo 2016 3D Viewer]( https://cynthiaarmour.github.io/oakland-gran-fondo-2016 )

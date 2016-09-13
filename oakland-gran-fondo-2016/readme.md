@@ -2,8 +2,50 @@
 ( https://cynthiaarmour.github.io/oakland-gran-fondo-2016/index.html#readme.md "View file as a web page." ) </span>
 <input type=button onclick=window.location.href='https://github.com/cynthiaarmour/cynthiaarmour.github.io/tree/master/oakland-gran-fondo-2016/'; value='You are now in GitHub web page view - Click this button to view Read Me file as source code' >
 
+[cynthiaarmour.github.io]( http://cynthiaarmour.github.io ) &raquo;
 
-
-[Oakland Gran Fondo Read Me]( index.html )
+[Oakland Gran Fondo 2016 3D Viewer Read Me]( index.html )
 ===
 
+
+
+## Program
+
+* Link for the 'Video of the Week' slot in the email blast
+	* Ready for demos, testing and gathering approvals ready by midday Wednesday, 2016-09-14
+	* All work complete by 2016-09-15
+	* Just in case: probably good idea to have an alternate link available
+	* Link will go to an animated 3D web app that will ride you through the Oakland Gran Fondo 28
+* Links for all four rides for the [Oakland Gran Fondo]( http://www.oaklandgranfondo.com ) site
+	* Ready for demos, testing and gathering approvals ready by Wednesday, 2016-09-21
+	* Each link will go to an animated 3D web app custom-tailored for the particular ride
+
+
+## Features
+
+* All work is built as free, open source software ([FOSS]())
+* All code and data is available on this GitHub repository
+* Code is written so as to be readable by entry level programmers
+
+
+## Copyright & Licence (MIT)
+
+Copyright &copy; 2016 Cynthia Armour, Theo Armour
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+The software is provided "as is", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose and noninfringement. In no event shall the
+authors or copyright holders be liable for any claim, damages or other
+liability, whether in an action of contract, tort or otherwise, arising from,
+out of or in connection with the software or the use or other dealings in
+the software.
