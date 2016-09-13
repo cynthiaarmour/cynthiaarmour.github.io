@@ -9,11 +9,18 @@
 
 ## Full Screen: [Oakland Gran Fondo 2016 3D Viewer]( https://jaanga.github.io/terrain3/elevations-core3/oakland-gran-fondo-r9.html )
 
+* Working
+
 <img src="" style=display:none; width=800 >
 
 <iframe src="https://jaanga.github.io/terrain3/elevations-core3/oakland-gran-fondo-r9.html" width=800px height=500px onload=this.contentWindow.googleMap.setOptions({scrollwheel:false});></iframe>
 
+* Not working yet
+
 _Oakland Gran Fondo 2016 3D Viewer_
+
+* Routes and animation on the way
+* Stripped dowd auto-run version dor 'video of the wek' on the way
 
 
 ## Program
