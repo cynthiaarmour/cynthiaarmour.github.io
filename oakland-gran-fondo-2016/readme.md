@@ -18,8 +18,13 @@
 
 _Oakland Gran Fondo 2016 3D Viewer_
 
-* Stripped down auto-run version for 'video of the week' on the way
+* Opens to randomly selected route
+* Various menus open and visible
 
+## Full Screen: [Oakland Gran Fondo 28]( https://cynthiaarmour.github.io/oakland-gran-fondo-2016/code/oakland-gran-fondo-28-r1.html )
+
+* Easy start user interface
+* All menus except camera menu closed by default
 
 ## Program
 
