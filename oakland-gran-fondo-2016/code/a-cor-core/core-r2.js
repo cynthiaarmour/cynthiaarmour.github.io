@@ -128,9 +128,12 @@
 
 	COR.onLeftMenuLoaded = function (){};
 
+
+
+
 	COR.initThreeColumns = function() {
 
-		COR.getCSS();
+		COR.getCSSThreeColomns();
 
 		COR.menu = document.body.appendChild( document.createElement( 'div' ) );
 		COR.menu.id = 'menu';
@@ -206,7 +209,7 @@
 
 	}
 
-	COR.getCSS = function() {
+	COR.getCSSThreeColomns = function() {
 
 		var css;
 
@@ -219,7 +222,7 @@
 
 			'button, input[type=button] { background-color: #ccc; border: 2px #fff solid; color: #322; }' +
 
-			'h2, h1 { margin: 0 }' +
+			'h2, h1 { margin: 0; }' +
 
 			'iframe { width: 100%; }' +
 
@@ -257,13 +260,13 @@
 		var menuDetailsHeader =
 
 			'<h3>' +
-
-				'<a href=http://cynthiaarmour.github.io/ title="" > &#x2766 </a> &raquo; ' +
+				'<a href=http://jaanga.github.io/ title="Jaanga - your 3D happy place" > &#x2766 </a> &raquo; ' +
+				'<a href=http://jaanga.github.io/terrain3/ title="your happy mappy place" > Terrain3 </a> &raquo; ' + 
 			'</h3>' +
 			'<h2>' +
 				'<a href="" title="Click here to refresh this page" >' + document.title + '</a> ~ ' +
 //				'<a href=index.html#readme.md title="Click here for help and information" > &#x24D8; </a>' +
-				'<a href=../index.html#readme onmouseover=popHelp.style.display=""; onmouseout=popHelp.style.display="none"; > &#x24D8; </a>' +
+				'<a href=../../../index.html#sandbox/elevations-view-oakland-gran-fondo onmouseover=popHelp.style.display=""; onmouseout=popHelp.style.display="none"; > &#x24D8; </a>' +
 
 			'</h2>' +
 
@@ -332,11 +335,11 @@
 
 		var menuDetailsTemplate =
 
-			'<details id=detailsTemplate open >' +
+			'<details id=CORdetailsTemplate open >' +
 
-				'<summary id=menuSummaryTemplate ><h3>Template</h3></summary>' +
+				'<summary id=CORmenuSummaryTemplate ><h3>Template</h3></summary>' +
 
-				'<p id=pTemplate >' +
+				'<p id=CORpTemplate >' +
 
 					'<button onclick=alert("Howdy!"); > button </button>' + b +
 
@@ -360,16 +363,16 @@
 
 		var menuDetailsObjectProperties =
 
-			'<details> ' +
+			'<details id=CORdetailsObjectProperties > ' +
 
-				'<summary id=MenuSummaryObjectProperties ><h3>Object Properties: ' + ( obj.objectName || '' ) + ' </h3></summary>' +
+				'<summary id=summaryObjectProperties ><h3>Object Properties: ' + ( obj.objectName || '' ) + ' </h3></summary>' +
 
 				'<p>' +
-					'<button onclick=properties.innerHTML=COR.getObjectProperties(COR.place); >Get place properties</button> ' +
-					'<button onclick=properties.innerHTML=COR.getObjectProperties(); >Get defaults</button> ' +
+					'<button onclick=pProperties.innerHTML=COR.getObjectProperties(COR.place); >Get place properties</button> ' +
+					'<button onclick=pProperties.innerHTML=COR.getObjectProperties(); >Get defaults</button> ' +
 				'</p>' +
 
-				'<p id=properties ></p>' + b +
+				'<p id=pProperties ></p>' + b +
 
 			'</details>' +
 
@@ -397,7 +400,7 @@
 
 		}
 
-		MenuSummaryObjectProperties.innerHTML = '<h3>Object Properties: ' + ( obj.objectName || '' ) + '</h3>';
+		summaryObjectProperties.innerHTML = '<h3>Object Properties: ' + ( obj.objectName || '' ) + '</h3>';
 
 		return '<table>' + txt + '</table>';
 

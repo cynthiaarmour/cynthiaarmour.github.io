@@ -2,18 +2,22 @@
 
 	SEL = SEL || {};
 
-	SEL.urlAPITreeContents = 'https://api.github.com/repos/cynthiaarmour/cynthiaarmour.github.io/git/trees/master?recursive=1';
+/*
 
+// more visible in HTML
+ 
+	SEL.urlAPITreeContents = 'https://api.github.com/repos/jaanga/terrain3/git/trees/gh-pages?recursive=1';
 
 //	SEL.defaultFile = '../../elevations/elevations-data-04/san-francisco_10_163_394_3_3_450_450_.json';
 	SEL.defaultFile; // if no default, select a random file
 
-	SEL.searchInFolder = 'maps/';
+	SEL.searchInFolder = 'elevations-data-04/';
 	SEL.extension = '.json';
 
 //	SEL.urlBase = '../../../../elevations/' + SEL.searchInFolder;
-	SEL.urlBase = 'https://cynthiaarmour.github.io/oakland-gran-fondo-2016/' + SEL.searchInFolder;
+	SEL.urlBase = 'https://jaanga.github.io/terrain3/elevations/' + SEL.searchInFolder;
 
+*/
 
 
 	SEL.getMenuDetailsSelectFile = function() {

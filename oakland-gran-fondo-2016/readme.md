@@ -12,9 +12,11 @@
 * Working
 
 <img src="" style=display:none; width=800 >
-
+<!--
 <iframe src=" https://cynthiaarmour.github.io/oakland-gran-fondo-2016/code/oakland-gran-fondo-r10.html" width=800px height=500px ></iframe>
-
+<iframe src=" ./code/oakland-gran-fondo-r10.html" width=800px height=500px ></iframe>
+-->
+<iframe src=" ./code/.html" width=800px height=500px ></iframe>
 
 
 _Oakland Gran Fondo 2016 3D Viewer_
