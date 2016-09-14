@@ -88,6 +88,8 @@
 
 	THR.getThreeJS();
 
+	THR.animate();
+
 	function init() {
 
 		CAS.cameraOffsetChase = v( -0.02, 0.05, -0.02 );
@@ -121,15 +123,15 @@
 
 		if ( window.self !== window.top ) { 
 
-//			hamburger.style.left = '0px';
+			hamburger.style.left = '0px';
 
 		} else {
 
 			if ( location.hash.length ) { SEL.defaultFile = location.hash.slice( 6 ); }
 
-			SEL.getGitHubAPITreeContents();
-
 		}
+
+		SEL.getGitHubAPITreeContents();
 
 		detailsOverlay.setAttribute('open', 'open');
 
@@ -183,7 +185,6 @@
 		KML.drawPath();
 
 	}
-
 
 </script>
 </body>

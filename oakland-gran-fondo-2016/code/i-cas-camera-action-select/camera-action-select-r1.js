@@ -38,12 +38,11 @@
 
 		var menuDetailsCameraActions =
 
-			'<details id=detailsCameraActions open>' +
+			'<details id=detailsMarkerActions open>' +
 
 				'<summary id=summaryCameraActions ><h3>' + CAS.marker + ' settings</h3></summary>' +
 
 // slide to move actor to desired position
-
 
 				'<p><input type=checkbox id=CASchkMotion onclick=motion=!motion checked >' + CAS.marker +  ' <i>en route</i></p>' +
 
@@ -53,6 +52,11 @@
 						' oninput=CHKoutSpeed.value=CAS.cameraPoints=this.valueAsNumber title="0 to 10: OK" >' +
 				'</p>' +
 
+			'</details>' +
+
+			'<details id=detailsCameraActions open>' +
+
+				'<summary id=summaryCameraActions ><h3>Camera settings</h3></summary>' +
 
 				'<p><button onclick=CAS.cameraChase(); >camera chase</button><br>' +
 					'Camera fixed a distance from actor, follows actor position and rotation' +
