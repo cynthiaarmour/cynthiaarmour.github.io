@@ -7,13 +7,13 @@
 [Oakland Gran Fondo 2016 3D Viewer Read Me]( index.html )
 ===
 
-## Full Screen: [Oakland Gran Fondo 2016 3D Viewer]( https://jaanga.github.io/terrain3/elevations-core3/oakland-gran-fondo-r10.html )
+## Full Screen: [Oakland Gran Fondo 2016 3D Viewer]( https://cynthiaarmour.github.io/oakland-gran-fondo-2016/code/oakland-gran-fondo-r10.html )
 
 * Working
 
 <img src="" style=display:none; width=800 >
 
-<iframe src="https://jaanga.github.io/terrain3/elevations-core3/oakland-gran-fondo-r10.html" width=800px height=500px onload=this.contentWindow.googleMap.setOptions({scrollwheel:false});></iframe>
+<iframe src=" https://cynthiaarmour.github.io/oakland-gran-fondo-2016/code/oakland-gran-fondo-r10.html" width=800px height=500px onload=this.contentWindow.googleMap.setOptions({scrollwheel:false});></iframe>
 
 
 
