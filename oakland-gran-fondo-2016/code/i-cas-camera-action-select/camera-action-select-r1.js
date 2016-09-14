@@ -11,7 +11,7 @@
 	CAS.actor = new THREE.Object3D();
 	CAS.cameraPoints = 25;
 	CAS.zoomScale = 1;
-	CAS.actorScale = 1;
+	CAS.actorScale = 0.005;
 
 	var point = 0;
 	var index = 0;

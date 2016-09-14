@@ -13,7 +13,7 @@
 
 <img src="" style=display:none; width=800 >
 
-<iframe src=" https://cynthiaarmour.github.io/oakland-gran-fondo-2016/code/oakland-gran-fondo-r10.html" width=800px height=500px onload=this.contentWindow.googleMap.setOptions({scrollwheel:false});></iframe>
+<iframe src=" https://cynthiaarmour.github.io/oakland-gran-fondo-2016/code/oakland-gran-fondo-r10.html" width=800px height=500px ></iframe>
 
 
 

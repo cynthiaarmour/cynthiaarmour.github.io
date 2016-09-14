@@ -12,7 +12,7 @@
 	SEL.extension = '.json';
 
 //	SEL.urlBase = '../../../../elevations/' + SEL.searchInFolder;
-	SEL.urlBase = 'https://cynthiaarmour.github.io/oakland-gran-fondo-2016/maps/' + SEL.searchInFolder;
+	SEL.urlBase = 'https://cynthiaarmour.github.io/oakland-gran-fondo-2016/' + SEL.searchInFolder;
 
 
 
