@@ -7,20 +7,19 @@
 [Oakland Gran Fondo 2016 3D Viewer Read Me]( index.html )
 ===
 
-## Full Screen: [Oakland Gran Fondo 2016 3D Viewer]( https://jaanga.github.io/terrain3/elevations-core3/oakland-gran-fondo-r9.html )
+## Full Screen: [Oakland Gran Fondo 2016 3D Viewer]( https://jaanga.github.io/terrain3/elevations-core3/oakland-gran-fondo-r10.html )
 
 * Working
 
 <img src="" style=display:none; width=800 >
 
-<iframe src="https://jaanga.github.io/terrain3/elevations-core3/oakland-gran-fondo-r9.html" width=800px height=500px onload=this.contentWindow.googleMap.setOptions({scrollwheel:false});></iframe>
+<iframe src="https://jaanga.github.io/terrain3/elevations-core3/oakland-gran-fondo-r10.html" width=800px height=500px onload=this.contentWindow.googleMap.setOptions({scrollwheel:false});></iframe>
 
 
 
 _Oakland Gran Fondo 2016 3D Viewer_
 
 * Not working in iframe yet
-* Routes and animation on the way
 * Stripped down auto-run version for 'video of the week' on the way
 
 
@@ -34,6 +33,29 @@ _Oakland Gran Fondo 2016 3D Viewer_
 * Links for all four rides for the [Oakland Gran Fondo]( http://www.oaklandgranfondo.com ) site
 	* Ready for demos, testing and gathering approvals ready by Wednesday, 2016-09-21
 	* Each link will go to an animated 3D web app custom-tailored for the particular ride
+
+## Concept
+
+Maps are usually flat. Bike routes usually are not flat. Looking at a usual map is hard to see where the ricky bits of the route are going to be.
+
+As mobile devices become more powerful, it's going to be possible to visualize routes in entirely new ways.
+
+It's time to leave 2D flatland and explore the hills and valleys of new ways of animated 3D mapping 
+
+
+
+### Mission
+
+_a statement of a rationale, applicable now as well as in the future _
+
+* To make easier for people to see the easy and difficult sections of routes
+
+
+### Vision
+
+_a descriptive picture of a desired future state_
+
+
 
 
 ## Features
