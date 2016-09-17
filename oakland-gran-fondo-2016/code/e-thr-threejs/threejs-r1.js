@@ -69,7 +69,7 @@
 		THR.controls.target.copy( THR.center );
 		THR.controls.maxDistance = 3 * THR.radius;
 
-		cameraPosition = 1 * THR.radius;
+		cameraPosition = 0.5 * THR.radius;
 		THR.camera.position.copy( THR.center.clone() ).add( v( 0, cameraPosition, cameraPosition ) );
 
 	}
