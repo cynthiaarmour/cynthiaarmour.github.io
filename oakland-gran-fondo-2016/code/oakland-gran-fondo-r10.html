@@ -88,7 +88,6 @@
 
 	THR.getThreeJS();
 
-
 	function init() {
 
 		CAS.cameraOffsetChase = v( -0.02, 0.05, -0.02 );
@@ -167,6 +166,8 @@
 			CAS.animatePlusLookAt();
 
 		};
+
+		window.addEventListener( 'keyup', THR.onKeyUp, false );
 
 	}
 

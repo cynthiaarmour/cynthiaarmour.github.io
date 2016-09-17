@@ -15,7 +15,7 @@
 	CAS.actorScale = 1;
 
 	var point = 0;
-	var index = 0;
+	var index = 0.1;
 	var delta = 1;
 
 	var motion = false;
