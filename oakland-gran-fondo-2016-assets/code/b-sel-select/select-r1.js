@@ -34,11 +34,11 @@
 					'<select id=SELselFiles onchange=SEL.getJSONFileXHR(SEL.urlBase+this.value); size=12 style=width:100%; ></select>' +
 				'</p>' +
 
-				'<p><input type=file id=SELinpFile onchange=SEL.getJSONFileReader(this); /></p>' +
+				'<p><input type=file id=SELinpFile onchange=SEL.getJSONFileReader(this); /></p>' + b +
 
 			'</details>' +
 
-		b;
+		'';
 
 		return menuDetailsSelectFile;
 
