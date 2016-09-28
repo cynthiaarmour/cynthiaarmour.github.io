@@ -37,6 +37,15 @@ _Oakland Gran Fondo 2016_
 
 * Entire route 
 
+
+If the app doesn't load properly or your view gets too twisted, just click the title to reload the page
+
+_Cynthia:_
+
+_The two detail routes have issues_
+
+_See also [old read]( https://cynthiaarmour.github.io/oakland-gran-fondo-2016-assets/#readme.md ) me for more details_
+
 ***
 <center>
 <img src="https://cynthiaarmour.github.io/oakland-gran-fondo-2016-assets/maps/logo-beb-main-site.png" width=150px >
