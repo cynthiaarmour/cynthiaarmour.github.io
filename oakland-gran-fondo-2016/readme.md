@@ -37,3 +37,7 @@ _Oakland Gran Fondo 2016_
 
 * Entire route 
 
+***
+<center>
+<img src="https://cynthiaarmour.github.io/oakland-gran-fondo-2016-assets/maps/logo-beb-main-site.png" width=150px >
+</center>

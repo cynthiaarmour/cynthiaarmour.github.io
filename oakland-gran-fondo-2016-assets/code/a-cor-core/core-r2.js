@@ -80,7 +80,8 @@
 
 		'<p><small>' +
 			'Rotate|Zoom|Pan => 1|2|3 finger/button' + b +
-			'Rotation => spacebar' +
+			'Rotation => spacebar' + b +
+			'Slide menu => \'hamburger\' icon' +
 		'</small></p>';
 
 
@@ -291,7 +292,7 @@
 				'<summary><h3>About</h3></summary>' +
 
 				'<p>' +
-					'Copyright &copy; 2016 <a href=https://github.com/orgs/jaanga/people target="_blank">Jaanga authors</a>.' + b +
+					'Copyright &copy; 2016 <a href=https://cynthiaarmourgithub.io/ target="_blank">Cynthia Armour authors</a>.' + b +
 					'<jaanga.github.io/license.md >MIT license</a>' +
 				'</p>' +
 
@@ -316,7 +317,7 @@
 			'<hr>' +
 
 			'<center>' +
-				'<a href=javascript:menu.scrollTop=0; style=text-decoration:none; onmouseover=pop2.style.display=""; onmouseout=pop2.style.display="none"; ><h1> &#x2766 <h1></a>' +
+				'<a href=javascript:menu.scrollTop=0; style=text-decoration:none; onmouseover=pop2.style.display=""; onmouseout=pop2.style.display="none"; ><img src="https://cynthiaarmour.github.io/oakland-gran-fondo-2016-assets/maps/logo-beb-main-site.png" width=150px ></a>' +
 			'</center>' +
 
 			'<div class=popUp id=pop2 style= display:none;bottom:100px; >' +
