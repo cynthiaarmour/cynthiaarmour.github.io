@@ -42,8 +42,6 @@ If the app doesn't load properly or your view gets too twisted, just click the t
 
 _Cynthia:_
 
-_The two detail routes have issues_
-
 _See also [old read]( https://cynthiaarmour.github.io/oakland-gran-fondo-2016-assets/#readme.md ) me for more details_
 
 ***
