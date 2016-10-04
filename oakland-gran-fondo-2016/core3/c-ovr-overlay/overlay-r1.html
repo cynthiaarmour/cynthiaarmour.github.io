@@ -2,23 +2,23 @@
 <html lang=en >
 <head>
 <meta charset=utf-8 >
-<title>Elevations Core3 Core R2</title>
+<title>Terrain3 Elevations View Core1 Overlay R1</title>
 <meta name=viewport content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' >
 <meta name=description content='Core
 ' >
 <meta name=keywords content='Jaanga,GitHub API,CSS,HTML,JavaScript,GitHub,FOSS' >
-<meta name=date content='2016-09-10' >
+<meta name=date content='2016-09-05' >
 </head>
 <body>
 <script src=../a-cor-core/core-r2.js ></script>
+<script src=../c-ovr-overlay/overlay-r1.js ></script>
 <script>
-// Copyright &copy; 2016 Jaanga authors. MIT License
 
 	init();
 
 	function init() {
 
-		COR.taglineHeader = 'A hard core howdy!' + b;
+		COR.taglineHeader = 'Howdy!' + b;
 
 		COR.initLeftMenu();
 
@@ -26,9 +26,7 @@
 
 			COR.getMenuDetailsHeader() +
 
-			COR.getMenuDetailsObjectProperties() +
-
-			COR.getMenuDetailsTemplate() +
+			OVR.getMenuDetailsOverlay() +
 
 			COR.getMenuDetailsAbout() +
 
@@ -38,9 +36,15 @@
 
 		if ( window.self !== window.top ) { hamburger.style.left = '0px'; }
 
-		CORdetailsObjectProperties.setAttribute( 'open', 'open' );
+		COR.getPlaceDefaults();
 
-		CORdetailsTemplate.removeAttribute( 'open' );
+		OVR.setMenuDetailsOverlay();
+
+		OVR.getMapOverlayParameters();
+
+		detailsOverlay.setAttribute('open', 'open');
+
+		detailsOverlayParameters.setAttribute('open', 'open');
 
 	}
 

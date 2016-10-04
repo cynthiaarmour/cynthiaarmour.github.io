@@ -14,7 +14,7 @@
 <iframe src=" https://cynthiaarmour.github.io/oakland-gran-fondo-2016/code/oakland-gran-fondo-r10.html" width=800px height=500px ></iframe>
 -->
 
-<iframe src=" ./code/oakland-gran-fondo-r10.html" width=800px height=500px onload=this.contentWindow.THR.controls.enableZoom=false; ></iframe>
+<iframe src="https://cynthiaarmour.github.io/oakland-gran-fondo-2016/oakland-gran-fondo-2016.html" width=800px height=500px onload=this.contentWindow.THR.controls.enableZoom=false; ></iframe>
 
 _Oakland Gran Fondo 2016 3D Viewer_
 
@@ -26,21 +26,11 @@ _Oakland Gran Fondo 2016 3D Viewer_
 
 
 
-### Full Screen: [Oakland Gran Fondo 28]( https://cynthiaarmour.github.io/oakland-gran-fondo-2016/code/oakland-gran-fondo-28-r1.html )
+### Full Screen: [Oakland Gran Fondo 28]( https://cynthiaarmour.github.io/oakland-gran-fondo-2016/oakland-gran-fondo-2016.html )
 
 * Easy start user interface
 * All menus except camera menu closed by default
 
-## Program
-
-* Link for the 'Video of the Week' slot in the email blast
-	* Ready for demos, testing and gathering approvals ready by midday Wednesday, 2016-09-14
-	* All work complete by 2016-09-15
-	* Just in case: probably good idea to have an alternate link available
-	* Link will go to an animated 3D web app that will ride you through the Oakland Gran Fondo 28
-* Links for all four rides for the [Oakland Gran Fondo]( http://www.oaklandgranfondo.com ) site
-	* Ready for demos, testing and gathering approvals ready by Wednesday, 2016-09-21
-	* Each link will go to an animated 3D web app custom-tailored for the particular ride
 
 ## Concept
 
@@ -99,3 +89,29 @@ authors or copyright holders be liable for any claim, damages or other
 liability, whether in an action of contract, tort or otherwise, arising from,
 out of or in connection with the software or the use or other dealings in
 the software.
+
+
+## Change Log
+
+
+## 2016-10-03 ~ R11
+
+* Nearby location placards added
+* Sponsor shout-out Easter egg added
+* Rider location slider bar added
+
+
+## 2016-09-25
+
+
+### Program
+
+* Link for the 'Video of the Week' slot in the email blast
+	* Ready for demos, testing and gathering approvals ready by midday Wednesday, 2016-09-14
+	* All work complete by 2016-09-15
+	* Just in case: probably good idea to have an alternate link available
+	* Link will go to an animated 3D web app that will ride you through the Oakland Gran Fondo 28
+* Links for all four rides for the [Oakland Gran Fondo]( http://www.oaklandgranfondo.com ) site
+	* Ready for demos, testing and gathering approvals ready by Wednesday, 2016-09-21
+	* Each link will go to an animated 3D web app custom-tailored for the particular ride
+

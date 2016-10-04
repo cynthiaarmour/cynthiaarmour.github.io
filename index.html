@@ -2,11 +2,11 @@
 <html lang=en >
 <head>
 <meta charset=utf-8 >
-<title>Cynthia Armour</title>
+<title>Cynthia Armour on GitHub</title>
 <meta name=viewport content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' >
-<meta name=description content='File wrangler. Default index.html file. Opens HTML or Markdown files. Passes location.hash.' >
-<meta name=keywords content='ShowDown,Markdown,AJAX,JavaScript,HTML,CSS,GitHub,FOSS' >
-<meta name=date content='2016-07-21' >
+<meta name=description content='I live in Oakland, California. I ride a bike, take the train and drive someone else\'s car. I am an advocate for active transportation networks.' >
+<meta name=keywords content='Bike East Bay cycling' >
+<meta name=date content='2016-10-04' >
 </head>
 <body>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/showdown/1.4.2/showdown.min.js ></script>
@@ -59,7 +59,7 @@
 		xhr.onload = function() { contents.innerHTML = converter.makeHtml( xhr.responseText ); };
 		xhr.send( null );
 
-		document.title = url.split( '/' ).pop();
+//		document.title = url.split( '/' ).pop();
 
 		window.addEventListener( 'hashchange', onHashChange, false );
 

@@ -38,7 +38,16 @@ _Oakland Gran Fondo 2016_
 * Entire route 
 
 
-If the app doesn't load properly or your view gets too twisted, just click the title to reload the page
+## Tips and Tricks
+
+* Can't see anything? If the app doesn't load properly or your view gets too twisted, just click the title to reload the page
+
+* Much higher quality maps? Click yp open 'Overlay Settings" > select 'Map quality' 2 or 3 
+
+* Easter egg? There's a sponsor shout-out Easter egg in there somewhere
+
+
+
 
 _Cynthia:_
 
