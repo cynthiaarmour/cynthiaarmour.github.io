@@ -42,9 +42,9 @@ _Oakland Gran Fondo 2016_
 
 * Can't see anything? If the app doesn't load properly or your view gets too twisted, just click the title to reload the page
 
-* Much higher quality maps? Click yp open 'Overlay Settings" > select 'Map quality' 2 or 3 
+* Want much higher quality maps? Click to open 'Overlay Settings" > select 'Map quality'  and set to 2 or 3 
 
-* Easter egg? There's a sponsor shout-out Easter egg in there somewhere
+* Easter egg? There's a sponsor shout-out Easter egg ub=nder there somewhere
 
 
 
