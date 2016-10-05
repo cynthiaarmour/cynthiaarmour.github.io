@@ -206,28 +206,36 @@
 
 		var loader, geometry, material, mesh;
 
-		CAS.actor = new THREE.Object3D();
+		THR.scene.remove( CAS.actor );
 
-		loader = new THREE.TextureLoader();
-		loader.crossOrigin = '';
-		texture = loader.load( bitmap || '../bitmaps/j.gif' );
+		if ( !CAS.actor ) {
 
-		texture.minFilter = texture.magFilter = THREE.NearestFilter;
-//		texture.needsUpdate = true;
-//		geometry = new THREE.BoxGeometry( 1 * CAS.actorScale, 3 * CAS.actorScale, 1 * CAS.actorScale );
-		geometry = new THREE.PlaneBufferGeometry( 3 * CAS.actorScale, 3 * CAS.actorScale );
-		geometry.applyMatrix( new THREE.Matrix4().makeRotationY( -pi05 ) );
-		geometry.applyMatrix( new THREE.Matrix4().makeTranslation( 0 * CAS.actorScale, 2 * CAS.actorScale, 0 * CAS.actorScale ) );
 
-		material = new THREE.MeshBasicMaterial( {  map: texture, side: THREE.DoubleSide, transparent: true } );
-//		material = new THREE.MeshNormalMaterial();
+			CAS.actor = new THREE.Object3D();
 
-		mesh = new THREE.Mesh( geometry, material );
 
-		CAS.actor.add( mesh );
-		CAS.actor.mesh = mesh;
+			loader = new THREE.TextureLoader();
+			loader.crossOrigin = '';
+			texture = loader.load( bitmap || '../bitmaps/j.gif' );
 
-		THR.scene.add( CAS.actor );
+			texture.minFilter = texture.magFilter = THREE.NearestFilter;
+	//		texture.needsUpdate = true;
+	//		geometry = new THREE.BoxGeometry( 1 * CAS.actorScale, 3 * CAS.actorScale, 1 * CAS.actorScale );
+			geometry = new THREE.PlaneBufferGeometry( 3 * CAS.actorScale, 3 * CAS.actorScale );
+			geometry.applyMatrix( new THREE.Matrix4().makeRotationY( -pi05 ) );
+			geometry.applyMatrix( new THREE.Matrix4().makeTranslation( 0 * CAS.actorScale, 2 * CAS.actorScale, 0 * CAS.actorScale ) );
+
+			material = new THREE.MeshBasicMaterial( {  map: texture, side: THREE.DoubleSide, transparent: true } );
+	//		material = new THREE.MeshNormalMaterial();
+
+			mesh = new THREE.Mesh( geometry, material );
+
+			CAS.actor.add( mesh );
+			CAS.actor.mesh = mesh;
+
+			THR.scene.add( CAS.actor );
+
+		}
 
 	}
 

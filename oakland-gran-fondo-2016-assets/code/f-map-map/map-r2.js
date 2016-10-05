@@ -156,7 +156,7 @@ console.timeEnd( 'timer0' );
 		if ( THR.updateCamera === true ) { THR.viewObject( MAP.mesh ); }
 		if ( TERchkFog.checked === true ) { THR.toggleFog( true ) }
 		if ( CAS.center ) { 
-
+console.log( 'center', 23);
 			CAS.center = MAP.mesh.position.clone(); 
 			CAS.cameraTrack();
 

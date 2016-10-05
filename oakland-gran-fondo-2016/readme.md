@@ -7,33 +7,33 @@
 [Oakland Gran Fondo 2016 Read Me]( index.html )
 ===
 
-<iframe src=" ../oakland-gran-fondo-2016/oakland-gran-fondo-2016.html" width=800px height=500px onload=this.contentWindow.THR.controls.enableZoom=false; ></iframe>
+<iframe src=" ./r11/index.html" width=800px height=500px onload=this.contentWindow.THR.controls.enableZoom=false; ></iframe>
 
 _Oakland Gran Fondo 2016_
 
 
 ## Links to the individual routes
 
-### [Oakland Gran Fondo 110]( ./oakland-gran-fondo-2016.html#file=https://cynthiaarmour.github.io/oakland-gran-fondo-2016-assets/maps/oakland-gran-fondo-100-r1_11_328_791_3_3_510_510_.json )
+### [Oakland Gran Fondo 110]( ./r11/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-100-r1_11_328_791_3_3_510_510_.json )
 
 * Entire route
 
-### [Oakland Gran Fondo 110 Detail]( ./oakland-gran-fondo-2016.html#file=https://cynthiaarmour.github.io/oakland-gran-fondo-2016-assets/maps/oakland-gran-fondo-100-r1_14_2642_6341_3_3_510_510_.json )
+### [Oakland Gran Fondo 110 Detail]( ./r11/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-100-r1_14_2642_6341_3_3_510_510_.json )
 
 * Zoom into southern end of course
 
 
-### [Oakland Gran Fondo 28]( https://cynthiaarmour.github.io/oakland-gran-fondo-2016/oakland-gran-fondo-2016.html#file=https://cynthiaarmour.github.io/oakland-gran-fondo-2016-assets/maps/oakland-gran-fondo-28_14_2627_6329_7_3_490_210_.json )
+### [Oakland Gran Fondo 28]( ./r11/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-28_14_2627_6329_7_3_490_210_.json )
 
 * Entire route 
 
 
-### [Oakland Gran Fondo 28 Detail]( ../oakland-gran-fondo-2016/oakland-gran-fondo-2016.html#file=https://cynthiaarmour.github.io/oakland-gran-fondo-2016-assets/maps/oakland-gran-fondo-28_14_2631_6329_3_3_510_510_.json )
+### [Oakland Gran Fondo 28 Detail]( ./r11/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-28_14_2631_6329_3_3_510_510_.json )
 
 * Zoom into eastern end of course
 
 
-### [Oakland Gran Fondo 55]( ../oakland-gran-fondo-2016/oakland-gran-fondo-2016.html#file=https://cynthiaarmour.github.io/oakland-gran-fondo-2016-assets/maps/oakland-gran-fondo-55_13_1313_3164_7_5_490_350_.json )
+### [Oakland Gran Fondo 55]( ./r11/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-55_12_656_1582_4_3_512_384_.json )
 
 * Entire route 
 
@@ -48,10 +48,18 @@ _Oakland Gran Fondo 2016_
 
 
 
+## Change Log
 
-_Cynthia:_
+2016-10-05 ~ R11
 
-_See also [old read]( https://cynthiaarmour.github.io/oakland-gran-fondo-2016-assets/#readme.md ) me for more details_
+* Add sponsor images and links to menu
+* Add sponsor shout-out Easter egg
+* Add place name placards
+* Add new pas with placard data
+* Add rider location slide
+* Various bug fixes and code cleanups
+* Improved text to 'Camera settings' menu
+* Fixed issues with highlighting in 'Select your route' 
 
 ***
 <center>

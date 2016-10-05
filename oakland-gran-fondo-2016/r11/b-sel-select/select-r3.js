@@ -2,20 +2,34 @@
 
 	SEL = SEL || {};
 
+	SEL.folders = [
+		'elevations-airports-01',
+		'elevations-data-04',
+		'elevations-data-family+friends',
+		'elevations-data-oakland-gran-fondo',
+		'elevations-data-path-json',
+		'elevations-data-tgif',
+		'test'
+	];
+
+	SEL.defaultFolder = 1;
+
 /*
 
 // more visible in HTML
  
+// add user and branch
 	SEL.urlAPITreeContents = 'https://api.github.com/repos/jaanga/terrain3/git/trees/gh-pages?recursive=1';
 
 //	SEL.defaultFile = '../../elevations/elevations-data-04/san-francisco_10_163_394_3_3_450_450_.json';
 	SEL.defaultFile; // if no default, select a random file
 
 	SEL.searchInFolder = 'elevations-data-04/';
+	SEL.searchInFolder = SEL.folders[ SEL.defaultFolder ];
 	SEL.extension = '.json';
 
-//	SEL.urlBase = '../../../../elevations/' + SEL.searchInFolder;
-	SEL.urlBase = 'https://jaanga.github.io/terrain3/elevations/' + SEL.searchInFolder;
+//	SEL.urlBase = '../../elevations-data/';
+	SEL.urlBase = 'https://jaanga.github.io/terrain3/elevations-data/';
 
 */
 
@@ -51,25 +65,16 @@
 
 	SEL.getFolders = function() {
 
-		var folders = [
-			'elevations-airports-01',
-			'elevations-data-04',
-			'elevations-data-family+friends',
-			'elevations-data-oakland-gran-fondo',
-			'elevations-data-path-json',
-			'elevations-data-tgif',
-			'test'
-		];
+		for ( var i = 0; i < SEL.folders.length; i++ ) {
 
-		for ( var i = 0; i < folders.length; i++ ) {
-
-			SELselFolder[ i ] = new Option( folders[ i ] );
+			SELselFolder[ i ] = new Option( SEL.folders[ i ] );
 
 		}
 
-		SELselFolder.selectedIndex = 1;
+		SELselFolder.selectedIndex = SEL.defaultFolder;
 
 	}
+
 
 	SEL.getGitHubAPITreeContents = function() {
 
@@ -95,7 +100,7 @@
 
 	SEL.getFiles = function() {
 
-			files = [];
+			SEL.files = [];
 			SELselFiles.innerHTML = ''
 
 			for ( var i = 0; i < SEL.response.tree.length; i++ ) {
@@ -107,7 +112,7 @@
 
 				file = file.split( '\/' ).pop();
 
-				files.push( file );
+				SEL.files.push( file );
 
 				SELselFiles[ SELselFiles.length ] = new Option( file, file );
 
