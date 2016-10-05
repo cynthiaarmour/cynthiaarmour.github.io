@@ -4,7 +4,7 @@
 
 [cynthiaarmour.github.io]( http://cynthiaarmour.github.io ) &raquo;
 
-[Oakland Gran Fondo 2016 Read Me]( index.html )
+[Oakland Gran Fondo 2016 3d Viewer R11 Read Me]( index.html )
 ===
 
 <iframe src=" ./r11/index.html" width=800px height=500px onload=this.contentWindow.THR.controls.enableZoom=false; ></iframe>
@@ -55,7 +55,7 @@ _Oakland Gran Fondo 2016_
 * Add sponsor images and links to menu
 * Add sponsor shout-out Easter egg
 * Add place name placards
-* Add new pas with placard data
+* Add new maps with placard data
 * Add rider location slide
 * Various bug fixes and code cleanups
 * Improved text to 'Camera settings' menu
