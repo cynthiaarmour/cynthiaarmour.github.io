@@ -4,10 +4,10 @@
 
 [cynthiaarmour.github.io]( http://cynthiaarmour.github.io ) &raquo;
 
-[Oakland Gran Fondo 2016 3d Viewer R11 Read Me]( index.html )
+[Oakland Gran Fondo 2016 3d Viewer R12 Read Me]( index.html )
 ===
 
-<iframe src=" ./r11/index.html" width=800px height=500px onload=this.contentWindow.THR.controls.enableZoom=false; ></iframe>
+<iframe src=" ./r12/index.html" width=800px height=500px onload=this.contentWindow.THR.controls.enableZoom=false; ></iframe>
 
 _Oakland Gran Fondo 2016_
 
@@ -18,7 +18,7 @@ _Oakland Gran Fondo 2016_
 
 * Entire route
 
-### [Oakland Gran Fondo 110 Detail]( ./r11/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-100-r1_14_2642_6341_3_3_510_510_.json )
+### [Oakland Gran Fondo 110 Detail]( ./r12/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-100-r1_14_2642_6341_3_3_510_510_.json )
 
 * Zoom into southern end of course
 
@@ -57,7 +57,7 @@ _Oakland Gran Fondo 2016_
 	* Display of the station depends on currently selected route
 	* Graphic design of the placards leaves a lot to be desired
 * Nearby places placards hidden by default
-	* Can be made visible with checking the 'Nearby okaces' checkbox in the 'Terrain Settings' menu
+	* Can be made visible with checking the 'Nearby places' check box in the 'Terrain Settings' menu
 
 
 ### 2016-10-05 ~ R11
