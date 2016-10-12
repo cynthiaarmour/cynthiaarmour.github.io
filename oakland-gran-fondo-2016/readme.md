@@ -14,6 +14,9 @@ _Oakland Gran Fondo 2016_
 
 ## Links to the individual routes
 
+_The actual URLs are quite long. It's probably a good thing to copy the links belo (in crimson) and paste these into othe documents._ 
+
+
 ### [Oakland Gran Fondo 110]( ./r12/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-100-r1_11_328_791_3_3_510_510_.json )
 
 * Entire route
@@ -38,6 +41,11 @@ _Oakland Gran Fondo 2016_
 * Entire route 
 
 
+### Basic URL to access Read Me and links to all the files
+
+* https://cynthiaarmour.github.io/oakland-gran-fondo-2016/
+
+
 ## Tips and Tricks
 
 * Can't see anything? If the app doesn't load properly or your view gets too twisted, just click the title to reload the page
@@ -56,6 +64,7 @@ _Oakland Gran Fondo 2016_
 * Add data for six aid stations
 	* Display of the station depends on currently selected route
 	* Graphic design of the placards leaves a lot to be desired
+	* There appear to be issues with locating the stations on the maps
 * Nearby places placards hidden by default
 	* Can be made visible with checking the 'Nearby places' check box in the 'Terrain Settings' menu
 
