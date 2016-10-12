@@ -14,7 +14,7 @@ _Oakland Gran Fondo 2016_
 
 ## Links to the individual routes
 
-### [Oakland Gran Fondo 110]( ./r11/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-100-r1_11_328_791_3_3_510_510_.json )
+### [Oakland Gran Fondo 110]( ./r12/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-100-r1_11_328_791_3_3_510_510_.json )
 
 * Entire route
 
@@ -23,17 +23,17 @@ _Oakland Gran Fondo 2016_
 * Zoom into southern end of course
 
 
-### [Oakland Gran Fondo 28]( ./r11/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-28_14_2627_6329_7_3_490_210_.json )
+### [Oakland Gran Fondo 28]( ./r12/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-28_14_2627_6329_7_3_490_210_.json )
 
 * Entire route 
 
 
-### [Oakland Gran Fondo 28 Detail]( ./r11/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-28_14_2631_6329_3_3_510_510_.json )
+### [Oakland Gran Fondo 28 Detail]( ./r12/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-28_14_2631_6329_3_3_510_510_.json )
 
 * Zoom into eastern end of course
 
 
-### [Oakland Gran Fondo 55]( ./r11/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-55_12_656_1582_4_3_512_384_.json )
+### [Oakland Gran Fondo 55]( ./r12/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-55_12_656_1582_4_3_512_384_.json )
 
 * Entire route 
 
@@ -44,13 +44,23 @@ _Oakland Gran Fondo 2016_
 
 * Want much higher quality maps? Click to open 'Overlay Settings" > select 'Map quality'  and set to 2 or 3 
 
-* Easter egg? There's a sponsor shout-out Easter egg ub=nder there somewhere
+* Easter egg? There's a sponsor shout-out Easter egg under there somewhere
 
+* Display mixing things up? When you select a different route, the yellow path line may update quickly but the underlying map can take a much longer time to update. ;-(
 
 
 ## Change Log
 
-2016-10-05 ~ R11
+### 2016-10-12 ~ R12
+
+* Add data for six aid stations
+	* Display of the station depends on currently selected route
+	* Graphic design of the placards leaves a lot to be desired
+* Nearby places placards hidden by default
+	* Can be made visible with checking the 'Nearby okaces' checkbox in the 'Terrain Settings' menu
+
+
+### 2016-10-05 ~ R11
 
 * Add sponsor images and links to menu
 * Add sponsor shout-out Easter egg
