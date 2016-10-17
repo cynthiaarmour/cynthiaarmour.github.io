@@ -59,6 +59,14 @@ _The actual URLs are quite long. It's probably a good thing to copy the links be
 
 ## Change Log
 
+### 2016-10-17 ~ R12.1
+
+* Update Bike Aide Station details
+	* Correct the Latitude and longitude data
+* Simplify the tiles of route names
+* Mini Fondo Map
+
+
 ### 2016-10-12 ~ R12
 
 * Add data for six aid stations

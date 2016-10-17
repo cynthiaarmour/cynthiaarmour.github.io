@@ -2,7 +2,7 @@
 <html lang=en >
 <head>
 <meta charset=utf-8 >
-<title>Oakland Gran Fondo 2016 3D Viewer R12.1</title>
+<title>Oakland Gran Fondo 2016 3D Viewer R12</title>
 <meta name=viewport content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' >
 <meta name=description content='Elevations Core3, load and display interactive 3D maps. 2D maps applied as overlays on 3D meshes.
 Select source and resolution of overlays. Toggle or control display of various viewing and debugging aids. Display messages as 3D placards.
@@ -44,7 +44,6 @@ Load and display 2D bitmaps as riders. Display riders cycling along the path.' >
 <script src=../elevations-data/elevations-data-oakland-gran-fondo/ogf-aid-stations.js ></script>
 <script>
 
-
 	var sponsors;
 
 //	SEL.urlAPITreeContents = 'https://api.github.com/repos/cynthiaarmour/cynthiaarmour.github.io/git/trees/master?recursive=1';
@@ -56,8 +55,8 @@ Load and display 2D bitmaps as riders. Display riders cycling along the path.' >
 //	SEL.searchInFolder = 'elevations-data-oakland-gran-fondo';
 	SEL.searchInFolder = SEL.folders[ 3 ];
 
-//	SEL.defaultFile = 'https://cynthiaarmour.github.io/oakland-gran-fondo-2016-assets/maps/oakland-gran-fondo-28_2627_6329_7_3_490_210_.json';
-	SEL.defaultFile = SEL.urlBase + SEL.searchInFolder + '/oakland-gran-fondo-28_2627_6329_7_3_490_210_.json';
+//	SEL.defaultFile = 'https://cynthiaarmour.github.io/oakland-gran-fondo-2016-assets/maps/oakland-gran-fondo-28_14_2627_6329_7_3_490_210_.json';
+	SEL.defaultFile = SEL.urlBase + SEL.searchInFolder + '/oakland-gran-fondo-28_14_2627_6329_7_3_490_210_.json';
 //	SEL.defaultFile; // if no default, select a random file
 
 	CAS.marker = 'Rider';
@@ -287,8 +286,6 @@ Load and display 2D bitmaps as riders. Display riders cycling along the path.' >
 
 		b;
 
-		SELdetailsSelectFile.setAttribute( 'open', 'open' );
-
 		if ( window.self !== window.top ) { 
 
 			hamburger.style.left = '0px';
@@ -302,7 +299,7 @@ Load and display 2D bitmaps as riders. Display riders cycling along the path.' >
 		SELpFolder.style.display = 'none';
 
 		SELdetailsSelectFile.children[0].innerHTML = '<h3>Select your route</h3>';
-		SELselFiles.size = 6;
+		SELselFiles.size = 5;
 
 //		SELdetailsSelectFile.setAttribute('open', 'open');
 
@@ -344,7 +341,7 @@ Load and display 2D bitmaps as riders. Display riders cycling along the path.' >
 		for ( var i = 0; i < COR.place.stations.length; i++ ) {
 
 			station = aidStations[ 'station' + COR.place.stations[ i ] ];
-			stationMesh = PLA.drawPlacard(  [station.name, station.location, station.volunteers ], 0.00003, 120, 0, 0.03, 0 );
+			stationMesh = PLA.drawPlacard(  [station.name, station.location, station.volunteers ], 0.00003, 120, 0, 0.02, 0 );
 			stationMesh.position.set( station.directions[ 1 ], 0 , - station.directions[ 0 ] );
 
 			PLA.aidStations.add( stationMesh );
