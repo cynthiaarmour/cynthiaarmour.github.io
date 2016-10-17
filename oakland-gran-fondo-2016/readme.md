@@ -40,6 +40,9 @@ _The actual URLs are quite long. It's probably a good thing to copy the links be
 
 * Entire route 
 
+### [Oakland Gran Fondo Mini Fondo]( ./r12/index.html#file=../elevations-data/elevations-data-oakland-gran-fondo/oakland-gran-fondo-mini-fondo-13.5-mile_14_2624_6330_5_2_150_60_.json )
+
+* Entire route 
 
 ### Basic URL to access Read Me and links to all the files
 
@@ -61,7 +64,7 @@ _The actual URLs are quite long. It's probably a good thing to copy the links be
 
 ### 2016-10-17 ~ R12.1
 
-* Update Bike Aide Station details
+* Update Bike Aid Station details
 	* Correct the Latitude and longitude data
 * Simplify the tiles of route names
 * Mini Fondo Map
