@@ -9,7 +9,7 @@ aidStations = {
 		directions: [ 37.798361,-122.100694 ],
 		volunteers: 'GU Energy',
 		numberVolunteers: '5',
-		supplies: 'Water, Nuun, Snacks, Gu Gel and treats – Full Stop',
+		supplies: 'Water, Nuun, Snacks, Gu Gel and treats - Full Stop',
 		timelineFirst: '7:15am',
 		timelineLast: '1:00pm',
 		timelineArrival: '7:00am'
@@ -50,7 +50,7 @@ aidStations = {
 
 		name: 'Bike Aid Station 4',
 		routes: '100 mile rides',
-		location: 'Palomares Rd & Vogel Ln/Near Gate – Top of Hill', 
+		location: 'Palomares Rd & Vogel Ln/Near Gate - Top of Hill', 
 		directions: [ 37.644999,-121.9666944 ],
 		volunteers: 'Ride for a Reason',
 		numberVolunteers: '3-4',

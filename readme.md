@@ -24,7 +24,9 @@ An active network offers a variety of ways to get from A to B, all efficient in 
 
 ## [Oakland Gran Fondo 2016 3D Viewer Latest]( https://cynthiaarmour.github.io/oakland-gran-fondo-2016/ )
 
+<!--
 ## [Oakland Gran Fondo 2016 3D Viewer R12]( https://cynthiaarmour.github.io/oakland-gran-fondo-2016/r12/ )
+-->
 
 ## [Oakland Gran Fondo 2016 3D Viewer R11]( https://cynthiaarmour.github.io/oakland-gran-fondo-2016/r11/ )
 
