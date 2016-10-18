@@ -4,7 +4,7 @@
 
 [cynthiaarmour.github.io]( http://cynthiaarmour.github.io ) &raquo;
 
-[Oakland Gran Fondo 2016 3d Viewer R12 Read Me]( index.html )
+[Oakland Gran Fondo 2016 3D Viewer R12 Read Me]( index.html )
 ===
 
 <iframe src=" ./r12/index.html" width=800px height=500px onload=this.contentWindow.THR.controls.enableZoom=false; ></iframe>
@@ -72,10 +72,11 @@ _The actual URLs are quite long. It's probably a good thing to copy the links be
 ### 2016-10-17 ~ R12.1
 
 * Update Bike Aid Station details
-	* Correct the Latitude and longitude data
-* Simplify the tiles of route names
-* Mini Fondo Map
-
+	* Correct the latitude and longitude data
+* Simplify the titles of route names
+* Oakland Gran Fondo Mini Fondo route
+* OGF 100 mile construction on Palomares
+* A number of minor fixes route
 
 ### 2016-10-12 ~ R12
 
