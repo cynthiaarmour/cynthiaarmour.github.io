@@ -69,7 +69,7 @@ _The actual URLs are quite long. It's probably a good thing to copy the links be
 
 ## Change Log
 
-### 2016-10-17 ~ R12.1
+### 2016-10-17 ~ R12.2
 
 * Update Bike Aid Station details
 	* Correct the latitude and longitude data
