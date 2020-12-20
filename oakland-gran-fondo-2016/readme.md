@@ -4,10 +4,9 @@
 
 [cynthiaarmour.github.io]( http://cynthiaarmour.github.io ) &raquo;
 
-[Oakland Gran Fondo 2016 3D Viewer R12 Read Me]( index.html )
-===
+# [Oakland Gran Fondo 2016 3D Viewer R12 Read Me]( index.html )
 
-<iframe src=" ./r12/index.html" width=800px height=500px onload=this.contentWindow.THR.controls.enableZoom=false; ></iframe>
+<iframe src="https://cynthiaarmour.github.io/oakland-gran-fondo-2016/r12/index.html" width=100% height=500px onload=this.contentWindow.THR.controls.enableZoom=false; ></iframe>
 
 _Oakland Gran Fondo 2016_
 
